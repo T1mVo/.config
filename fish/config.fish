@@ -1,8 +1,8 @@
 # Syntax highlighting
 source ~/.config/fish/syntax_highlighting.fish
 
-# Aliases
-source ~/.config/fish/aliases.fish
+# Abbreviations
+source ~/.config/fish/abbreviations.fish
 
 # Starship prompt initialization
 starship init fish | source
