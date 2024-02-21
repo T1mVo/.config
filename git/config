@@ -1,0 +1,7 @@
+[user]
+	email = 94936637+T1mVo@users.noreply.github.com
+	name = Tim Voßhenrich
+[core]
+	editor = micro
+[alias]
+	graph = log --all --graph
