@@ -1,5 +1,9 @@
 # Starship prompt initialization
-starship init fish | source
+if command -q starship
+    starship init fish | source
+end
 
 # pyenv initialization
-pyenv init - | source
+if command -q pyenv
+    pyenv init - | source
+end
