@@ -1,0 +1,19 @@
+import = ["~/.config/alacritty/themes/0x96f.toml"]
+
+shell = "/opt/homebrew/bin/nu"
+
+[window]
+padding = { x = 5, y = 5 }
+dynamic_padding = true
+# opacity = 0.85
+# blur = true
+decorations_theme_variant = "Dark"
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font Mono", style = "Regular" }
+size = 14.0
+
+[cursor]
+style = { shape = "Beam", blinking = "On" }
+unfocused_hollow = false
+thickness = 0.2
