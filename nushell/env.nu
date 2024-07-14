@@ -14,5 +14,6 @@ $env.PROMPT_INDICATOR = {|| "" }
 
 $env.EDITOR = "micro"
 
+$env.PATH = ($env.PATH | split row (char esep) | append "/usr/local/bin")
 $env.PATH = ($env.PATH | split row (char esep) | append "/opt/homebrew/bin")
 $env.PATH = ($env.PATH | split row (char esep) | append "~/.cargo/bin")
